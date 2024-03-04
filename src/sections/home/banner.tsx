@@ -7,11 +7,13 @@ const Banner = () => {
   return (
     <Carousel
       transition={{ duration: 2 }}
+      placeholder={''}
       autoplay={true}
       loop={true}
       prevArrow={({ handlePrev }) => (
         <IconButton
           variant='text'
+          placeholder={''}
           color='white'
           size='lg'
           onClick={handlePrev}
@@ -23,6 +25,7 @@ const Banner = () => {
       nextArrow={({ handleNext }) => (
         <IconButton
           variant='text'
+          placeholder={''}
           color='white'
           size='lg'
           onClick={handleNext}
