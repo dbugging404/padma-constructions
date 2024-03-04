@@ -41,6 +41,7 @@ const Header = () => {
                 className='bg-minsk-900 px-3 py-2 text-sm text-minsk-100 rounded-md font-semibold uppercase hover:bg-minsk-800 transition duration-300
               ease-in-out'
                 ripple
+                placeholder={''}
               >
                 Get a Quote
               </Button>
@@ -51,6 +52,7 @@ const Header = () => {
               className='inline-flex mr-1 lg:hidden bg-minsk-900 hover:bg-minsk-800 text-minsk-100 items-center justify-center p-2 rounded-lg focus:outline-none transition duration-300 ease-in-out'
               aria-controls='mobile-menu'
               aria-expanded='false'
+              placeholder={''}
             >
               <div className='sr-only'>Open main menu</div>
               {!isOpen ? (
