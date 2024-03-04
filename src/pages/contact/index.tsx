@@ -2,7 +2,6 @@ import React from 'react';
 import MapSection from '@/sections/contact/map';
 import FormSection from '@/sections/contact/form';
 import SocialMediaLinks from '@/sections/contact/socialMedia';
-import Address from '@/sections/contact/address';
 
 const IndexPage = () => {
   return (
